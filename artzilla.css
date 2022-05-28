@@ -1,0 +1,11 @@
+ytmusic-player {
+  display: none !important;
+}
+
+img.ytmusic-player-bar {
+  visibility: hidden !important;
+}
+
+yt-img-shadow {
+  visibility: hidden !important;
+}

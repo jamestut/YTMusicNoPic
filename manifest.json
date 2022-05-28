@@ -1,0 +1,13 @@
+{
+  "name": "YTMusic No Picture",
+  "description": "Disable cover art and video in YouTube Music",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://music.youtube.com/*"],
+      "run_at": "document_idle",
+      "css": ["artzilla.css"]
+    }
+  ]
+}
